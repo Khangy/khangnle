@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+</head>
+<body>
+    <script>
+        // Load particles configuration
+        fetch('/particles-config.json')
+          .then((response) => response.json())
+          .then((particlesConfig) => {
+            // Initialize tsParticles
+            tsParticles.load('tsparticles', particlesConfig);
+          })
+          .catch((error) => {
+            console.error('Error loading particles configuration:', error);
+          });
+      </script>   
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>
