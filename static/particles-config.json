@@ -1,7 +1,7 @@
 {
   "background": {
     "color": {
-      "value": "#0d47a1"
+      "value": "#7D2982"
     },
     "image": "",
     "position": "50% 50%",
@@ -26,11 +26,11 @@
   "fpsLimit": 60,
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#F0F0F0"
     },
     "links": {
       "color": {
-        "value": "#ffffff"
+        "value": "#F0F0F0"
       },
       "distance": 150,
       "enable": true,
@@ -62,7 +62,7 @@
         "factor": 1000
       },
       "limit": 0,
-      "value": 80
+      "value": 125
     },
     "opacity": {
       "random": {

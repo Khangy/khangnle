@@ -1,0 +1,35 @@
+.home {
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.375); /* White background with 70% opacity */
+    padding: 1rem; /* Add some padding around the content */
+    border-radius: 5px; /* Optional: round the corners */
+  max-width: 65%; /* Set a maximum width */
+  margin: 0 auto; /* Center the div horizontally */
+  color: #FFFFFF; /* Replace with the desired text color */
+  list-style-position: inside; /* Move the bullet points inside the list items */
+  text-align: center; /* Center the list items */
+  padding: 20px;
+  font-family: 'Lusitana', sans-serif; /* Set the font family */
+  font-size: 1.2rem; /* Increase the text size */
+}
+
+.home h1 {
+  font-size: 3rem; /* Existing style */
+  margin-top: 30px; /* Add this line to create spacing above h1 */
+}
+
+
+.home h2 {
+  font-size: 2.2rem; /* Keep the text size for h2 elements */
+}
+
+
+.home ul {
+  list-style-position: inside; /* Move the bullet points inside the list items */
+  text-align: left; /* Align the list items to the left */
+  padding: 0; /* Remove padding */
+  display: inline-block; /* Add this line to make the list align properly */
+}
