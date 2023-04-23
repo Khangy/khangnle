@@ -6,7 +6,7 @@
   background-color: rgba(255, 255, 255, 0.375); /* White background with 70% opacity */
     padding: 1rem; /* Add some padding around the content */
     border-radius: 5px; /* Optional: round the corners */
-  max-width: 65%; /* Set a maximum width */
+  max-width: 50%; /* Set a maximum width */
   margin: 0 auto; /* Center the div horizontally */
   color: #FFFFFF; /* Replace with the desired text color */
   list-style-position: inside; /* Move the bullet points inside the list items */
@@ -18,7 +18,7 @@
 
 .home h1 {
   font-size: 3rem; /* Existing style */
-  margin-top: 30px; /* Add this line to create spacing above h1 */
+  margin-top: 20px; /* Add this line to create spacing above h1 */
 }
 
 
@@ -32,4 +32,10 @@
   text-align: left; /* Align the list items to the left */
   padding: 0; /* Remove padding */
   display: inline-block; /* Add this line to make the list align properly */
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+.home > *:last-child {
+  margin-bottom: 1rem; /* Add this line to create space at the bottom of the last element */
 }

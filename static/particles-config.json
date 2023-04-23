@@ -1,7 +1,7 @@
 {
   "background": {
     "color": {
-      "value": "#7D2982"
+      "value": "#6B007B"
     },
     "image": "",
     "position": "50% 50%",
@@ -23,7 +23,7 @@
     "zIndex": -1
   },
   "detectRetina": true,
-  "fpsLimit": 60,
+  "fpsLimit": 120,
   "particles": {
     "color": {
       "value": "#F0F0F0"
@@ -53,7 +53,7 @@
         "right": "out",
         "top": "out"
       },
-      "speed": 1
+      "speed": 0.4
     },
     "number": {
       "density": {
